@@ -40,7 +40,7 @@ I am a Web Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/
 </div>
 
   ### :fire: My Stats :
-<div>
+<div  align="center" flex-direction="row">
   
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=dakwol&theme=tokyonight&border_radius=10)](https://git.io/streak-stats)
 
