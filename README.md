@@ -1,4 +1,4 @@
-<div id="header" align="end">
+<div id="header" align="space-between">
   <div>
     <h1>Hello</h1>
   </div>
