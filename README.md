@@ -1,11 +1,6 @@
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/lbcLMX9B6sTsGjUmS3/giphy-downsized.gif" width="100%" height="200"/>
 </div>
-<div id="badges" align="center">
-  <a href="https://t.me/Dakwol">
-    <img src="https://img.shields.io/badge/Telegram-white?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Badge"/>
-  </a>
-</div>
 <h1 align="center">
   Welcome
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
@@ -50,4 +45,8 @@ I am a Web Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=dakwol&theme=tokyonight&border_radius=10)](https://git.io/streak-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dakwol&layout=compact&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+</div>
+
+<divalign="center">
+  <img src="https://media.giphy.com/media/lbcLMX9B6sTsGjUmS3/giphy-downsized.gif" width="100%" height="200"/>
 </div>
