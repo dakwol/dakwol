@@ -4,7 +4,7 @@
 
 
 <div align="center">
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Welcome,+I'm+Daniel)](https://git.io/typing-svg)
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=0030AE&center=true&vCenter=true&width=600&lines=Welcome%2C+I'm+Daniel" alt="Typing SVG" /></a>
 </div>
 
 
