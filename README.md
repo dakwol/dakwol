@@ -2,11 +2,11 @@
   <img src="https://media.giphy.com/media/lbcLMX9B6sTsGjUmS3/giphy-downsized.gif" width="100%" height="200"/>
 </div>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Welcome,+I'm+Daniel)](https://git.io/typing-svg)
 
 <h1 align="center">
   
   
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Welcome,+I'm+Daniel)](https://git.io/typing-svg)
   
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h1>
