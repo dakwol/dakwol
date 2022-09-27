@@ -48,5 +48,5 @@ I am a Web Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/
 </div>
 
 <div align="center">
-  <img src="https://media.giphy.com/media/nlk3Y1u3r1n5C/giphy.gif" width="100%" height="200"/>
+  <img src="https://media.giphy.com/media/nlk3Y1u3r1n5C/giphy.gif" width="100%"/>
 </div>
