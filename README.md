@@ -18,8 +18,10 @@ I am a Web Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/
 
 - :mailbox:How to reach me: [![Telegram Badge](https://img.shields.io/badge/Telegram-white?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Dakwol)
 
-<div>
+<div align="center">
+  
   [![trophy](https://github-profile-trophy.vercel.app/?username=dakwol)](https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=tokyonight)
+  
 </div>
 
 ### :hammer_and_wrench: Languages and Tools :
