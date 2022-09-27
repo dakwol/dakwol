@@ -5,7 +5,7 @@
 
 <h1 align="center">
   
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Welcome,+I'm+Daniel+<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Welcome,+I'm+Daniel)](https://git.io/typing-svg)
   
 </h1>
 
