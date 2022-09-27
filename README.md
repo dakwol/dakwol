@@ -12,7 +12,7 @@
 </h1>
 
 <div align="center">
-  <img src="https://giphy.com/clips/3d-forest-c4d-dRFwoSFjkfhSwxszrh" width="600" height="300"/>
+  <img src="https://media.giphy.com/media/usOikM00Flk139pNEv/giphy-downsized-large.gif" width="600" height="300"/>
 </div>
 
 ### :man_technologist: About Me :
