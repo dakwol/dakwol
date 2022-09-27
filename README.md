@@ -47,6 +47,4 @@ I am a Web Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dakwol&layout=compact&theme=tokyonight&border_radius=10)](https://github.com/anuraghazra/github-readme-stats)
 </div>
 
-<div align="center">
-  <img src="https://media.giphy.com/media/nlk3Y1u3r1n5C/giphy.gif" width="100%"/>
-</div>
+![GitHub Snake dark](github-snake-dark.svg#gh-dark-mode-only)
