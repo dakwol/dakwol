@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="https://media.giphy.com/media/lbcLMX9B6sTsGjUmS3/giphy-downsized.gif" width="100%" height="150"/>
+  <img src="https://media.giphy.com/media/lbcLMX9B6sTsGjUmS3/giphy-downsized.gif" width="100%" height="200"/>
 </div>
 <div id="badges" align="center">
   <a href="https://t.me/Dakwol">
