@@ -8,7 +8,7 @@
 </div>
 
 
-### :man_technologist: About Me :
+### About Me :
 I am a Web Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Russia.
 
  :telescope: I’m working as a Web developer and contributing to frontend for building web applications.
@@ -20,7 +20,7 @@ I am a Web Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/
 - :mailbox:How to reach me: [![Telegram Badge](https://img.shields.io/badge/Telegram-white?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Dakwol)
 
 
-### :hammer_and_wrench: Languages and Tools :
+### Languages and Tools :
 
 <div align="center">
   
@@ -41,7 +41,7 @@ I am a Web Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/
   
 </div>
 
-  ### :fire: My Stats :
+  ### My Stats :
 <div  align="center" flex-direction="row">
   
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=dakwol&theme=tokyonight&border_radius=10)](https://git.io/streak-stats)
