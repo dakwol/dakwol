@@ -1,62 +1,97 @@
 <div id="top" align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=320&color=0:020617,35:0F172A,70:1D4ED8,100:7C3AED&text=DAKWOL&fontSize=78&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Frontend%20Engineer%20%E2%80%A2%20Tech%20Lead%20%E2%80%A2%20Product%20Builder&descSize=20&descAlignY=58"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=330&color=0:020617,25:0F172A,55:1E3A8A,80:7C3AED,100:EC4899&text=DAKWOL&fontSize=82&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Frontend%20Engineer%20%E2%80%A2%20Tech%20Lead%20%E2%80%A2%20Digital%20Systems%20Builder&descSize=19&descAlignY=58"/>
 
-<p>
-  <a href="#ru">🇷🇺 Русский</a>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="#en">🇺🇸 English</a>
-</p>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&duration=2500&pause=900&color=60A5FA&center=true&vCenter=true&width=950&lines=I+build+interfaces+that+feel+like+systems;React+%2B+TypeScript+%2B+Architecture;Three.js+%2B+MapLibre+%2B+WebGL;Products%2C+maps%2C+3D+and+frontend+engineering" />
 
-<p>
-  <a href="https://t.me/Dakwol">
-    <img src="https://img.shields.io/badge/Telegram-Dakwol-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
-  </a>
-  <a href="https://github.com/dakwol">
-    <img src="https://img.shields.io/badge/GitHub-dakwol-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
+<br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1200&color=60A5FA&center=true&vCenter=true&width=900&lines=Senior+Frontend+Engineer;React+%2B+TypeScript+%2B+Architecture;Three.js+%2B+MapLibre+%2B+WebGL;Building+products%2C+not+just+features" />
+<a href="#ru">
+  <img src="https://img.shields.io/badge/Русский-0F172A?style=for-the-badge&logoColor=white" />
+</a>
+<a href="#en">
+  <img src="https://img.shields.io/badge/English-1E3A8A?style=for-the-badge&logoColor=white" />
+</a>
+<a href="https://t.me/Dakwol">
+  <img src="https://img.shields.io/badge/Telegram-Dakwol-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
+</a>
+
+<br/>
+<br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:020617,50:60A5FA,100:EC4899"/>
 
 </div>
 
----
+<br/>
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+<img src="https://img.shields.io/badge/FRONTEND-React%20%2F%20TypeScript-0F172A?style=for-the-badge&labelColor=020617&color=2563EB"/>
+
+</td>
+<td width="33%" align="center">
+
+<img src="https://img.shields.io/badge/VISUAL-Three.js%20%2F%20WebGL-0F172A?style=for-the-badge&labelColor=020617&color=7C3AED"/>
+
+</td>
+<td width="33%" align="center">
+
+<img src="https://img.shields.io/badge/SYSTEMS-Architecture%20%2F%20Product-0F172A?style=for-the-badge&labelColor=020617&color=EC4899"/>
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=dakwol&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=6" />
+```txt
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║   DAKWOL                                                            ║
+║   Frontend Engineer / Tech Lead                                     ║
+║                                                                      ║
+║   Building complex interfaces, real-time maps, 3D systems,           ║
+║   product platforms and frontend architectures.                      ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
 
 </div>
 
 ---
 
-<h1 id="ru">🇷🇺 Русская версия</h1>
+<details open id="ru">
+<summary><h1>🇷🇺 Русская версия</h1></summary>
+
+<br/>
 
 <table>
 <tr>
 <td width="58%" valign="top">
 
-## Привет, я Даниил
+## `whoami`
 
-Я Frontend-разработчик с фокусом на сложные интерфейсы, архитектуру, производительность и продуктовую разработку.
+Я Даниил, Frontend Engineer / Tech Lead.
 
-Работаю не только с UI, но и с инженерной частью фронтенда:
+Мой фокус — не просто верстать экраны, а собирать полноценные frontend-системы: архитектуру, UI-логику, производительность, визуализацию, карты, 3D и продуктовую механику.
 
-* архитектура больших frontend-приложений;
-* React / TypeScript / Next.js;
-* Feature-Sliced Design;
-* сложные карты и геовизуализация;
-* Three.js / WebGL / MapLibre GL;
-* дизайн-системы и UI Kit;
-* оптимизация производительности;
-* техническое лидерство;
-* AI-assisted engineering.
+```ts
+const dakwol = {
+  role: 'Frontend Engineer / Tech Lead',
+  focus: ['React', 'TypeScript', 'Architecture', 'Three.js', 'MapLibre', 'Product'],
+  mindset: 'Build systems, not just pages',
+};
+```
 
 </td>
 <td width="42%" valign="top">
 
-<img width="100%" src="https://github-readme-stats.vercel.app/api?username=dakwol&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=60A5FA&icon_color=7C3AED&text_color=E5E7EB" />
+<img width="100%" src="https://github-readme-stats.vercel.app/api?username=dakwol&show_icons=true&theme=tokyonight&hide_border=true&bg_color=020617&title_color=60A5FA&icon_color=EC4899&text_color=E5E7EB" />
 
 </td>
 </tr>
@@ -64,21 +99,23 @@
 
 ---
 
-## Основной фокус
+## `system.profile`
 
 <table>
 <tr>
-<td width="25%" align="center">
+<td width="25%" valign="top" align="center">
 
 ### ⚛️ Frontend
 
 React
 TypeScript
 Next.js
-Architecture
+State Management
+Forms
+Design Systems
 
 </td>
-<td width="25%" align="center">
+<td width="25%" valign="top" align="center">
 
 ### 🌍 Maps
 
@@ -86,26 +123,29 @@ MapLibre GL
 Globe Projection
 Terrain
 Realtime Layers
+Asset Tracking
 
 </td>
-<td width="25%" align="center">
+<td width="25%" valign="top" align="center">
 
-### 🎮 3D / WebGL
+### 🎮 3D
 
 Three.js
+WebGL
 GLTF
 LOD
 GPU Optimization
 
 </td>
-<td width="25%" align="center">
+<td width="25%" valign="top" align="center">
 
-### 🚀 Product
+### 🧠 Leadership
 
-MVP
-SaaS
-UX Logic
-Team Building
+Architecture
+Code Review
+DX
+Team Processes
+Product Thinking
 
 </td>
 </tr>
@@ -113,25 +153,29 @@ Team Building
 
 ---
 
-## Технологии
+## `tech.stack`
 
 <div align="center">
 
-### Frontend
+### Core
 
-<img src="https://skillicons.dev/icons?i=react,ts,nextjs,redux,vite,webpack,html,css,sass" />
+<img src="https://skillicons.dev/icons?i=react,ts,nextjs,vite,webpack,html,css,sass" />
 
 <br/>
 <br/>
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge\&logo=nextdotjs)
-![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge\&logo=redux)
-![Effector](https://img.shields.io/badge/Effector-0F172A?style=for-the-badge)
-![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge)
-![React Hook Form](https://img.shields.io/badge/React_Hook_Form-EC5990?style=for-the-badge)
-![Zod](https://img.shields.io/badge/Zod-3068B7?style=for-the-badge)
+![React](https://img.shields.io/badge/React-020617?style=for-the-badge\&logo=react\&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-020617?style=for-the-badge\&logo=typescript\&logoColor=3178C6)
+![Next.js](https://img.shields.io/badge/Next.js-020617?style=for-the-badge\&logo=nextdotjs\&logoColor=FFFFFF)
+![Sass](https://img.shields.io/badge/Sass-020617?style=for-the-badge\&logo=sass\&logoColor=CC6699)
+
+### State / Data / Forms
+
+![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-020617?style=for-the-badge\&logo=redux\&logoColor=764ABC)
+![Effector](https://img.shields.io/badge/Effector-020617?style=for-the-badge\&logoColor=white)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-020617?style=for-the-badge\&logo=reactquery\&logoColor=FF4154)
+![React Hook Form](https://img.shields.io/badge/React_Hook_Form-020617?style=for-the-badge\&logo=reacthookform\&logoColor=EC5990)
+![Zod](https://img.shields.io/badge/Zod-020617?style=for-the-badge\&logoColor=3068B7)
 
 ### Visualization
 
@@ -140,87 +184,89 @@ Team Building
 <br/>
 <br/>
 
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge\&logo=threedotjs)
-![WebGL](https://img.shields.io/badge/WebGL-990000?style=for-the-badge)
-![MapLibre GL](https://img.shields.io/badge/MapLibre_GL-396CB2?style=for-the-badge)
+![Three.js](https://img.shields.io/badge/Three.js-020617?style=for-the-badge\&logo=threedotjs\&logoColor=FFFFFF)
+![WebGL](https://img.shields.io/badge/WebGL-020617?style=for-the-badge\&logo=webgl\&logoColor=990000)
+![MapLibre GL](https://img.shields.io/badge/MapLibre_GL-020617?style=for-the-badge\&logoColor=396CB2)
 
-### Backend / Tools
+### Backend / Infra / Tools
 
 <img src="https://skillicons.dev/icons?i=supabase,postgres,firebase,docker,githubactions,git,figma,vscode" />
 
 <br/>
 <br/>
 
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge\&logo=supabase\&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge\&logo=postgresql\&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge\&logo=githubactions\&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-0F172A?style=for-the-badge\&logo=figma\&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-020617?style=for-the-badge\&logo=supabase\&logoColor=3ECF8E)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-020617?style=for-the-badge\&logo=postgresql\&logoColor=4169E1)
+![Docker](https://img.shields.io/badge/Docker-020617?style=for-the-badge\&logo=docker\&logoColor=2496ED)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-020617?style=for-the-badge\&logo=githubactions\&logoColor=2088FF)
+![Figma](https://img.shields.io/badge/Figma-020617?style=for-the-badge\&logo=figma\&logoColor=F24E1E)
 
 </div>
 
 ---
 
-## Проекты и направления
+## `systems.i.build`
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:38BDF8,100:2563EB"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0:38BDF8,100:2563EB"/>
 
-### 🌍 3D Globe Platform
+### 🌍 Globe Visualization
 
-Система интерактивной геовизуализации на глобусе.
+Интерактивная 3D-платформа для геовизуализации и отслеживания объектов.
 
-**Что внутри:**
+```txt
+MapLibre GL
+Three.js
+WebGL
+Terrain
+Realtime Tracking
+LOD
+GPU Optimization
+```
 
-* MapLibre GL;
-* Three.js;
-* WebGL rendering;
-* terrain-aware layers;
-* realtime asset tracking;
-* LOD-система;
-* оптимизация CPU / GPU;
-* кастомные tooltip / overlay-системы.
+**Фокус:** производительность, 3D-сцена, глобус, ассеты, линии, тултипы, слои, оптимизация рендера.
 
 </td>
 <td width="33%" valign="top">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:8B5CF6,100:EC4899"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0:8B5CF6,100:EC4899"/>
 
 ### 🚀 За Идею
 
-Платформа для поиска команды и запуска проектов.
+Платформа для поиска команды, запуска проектов и доведения идей до реализации.
 
-**Что внутри:**
+```txt
+Team Matching
+Project Cards
+Motivation System
+Progress Tracking
+Product UX
+```
 
-* поиск сокомандников;
-* карточки проектов;
-* роли и навыки;
-* система мотивации;
-* трекинг прогресса;
-* командное взаимодействие;
-* продуктовая UX-логика.
+**Фокус:** продуктовая логика, удобный UX, командная работа, роли, навыки, мотивация.
 
 </td>
 <td width="33%" valign="top">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:22C55E,100:14B8A6"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0:22C55E,100:14B8A6"/>
 
 ### 💰 Finance Tracker
 
-Удобный финансовый трекер для совместного бюджета.
+Совместный финансовый трекер для бюджета, накоплений и расходов.
 
-**Что внутри:**
+```txt
+Shared Budget
+Analytics
+Goals
+Google Sheets
+Supabase
+Mobile First
+```
 
-* доходы и расходы;
-* общие цели;
-* накопления;
-* аналитика;
-* Google Sheets / Supabase;
-* мобильный-first интерфейс;
-* простая совместная работа.
+**Фокус:** простота, совместное использование, понятная аналитика, быстрая разработка.
 
 </td>
 </tr>
@@ -228,7 +274,23 @@ Team Building
 
 ---
 
-## Архитектурный подход
+## `architecture.principles`
+
+<div align="center">
+
+```txt
+┌───────────────────────────────┬───────────────────────────────┐
+│ Feature-Sliced Design         │ Explicit Types                │
+├───────────────────────────────┼───────────────────────────────┤
+│ Small Components              │ Predictable State             │
+├───────────────────────────────┼───────────────────────────────┤
+│ Performance First             │ No Magic                      │
+├───────────────────────────────┼───────────────────────────────┤
+│ Domain Logic Isolation        │ Clean Developer Experience    │
+└───────────────────────────────┴───────────────────────────────┘
+```
+
+</div>
 
 ```txt
 src/
@@ -240,34 +302,37 @@ src/
 └── shared/
 ```
 
+---
+
+## `engineering.values`
+
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Принципы
+### Что важно в коде
 
-* Feature-Sliced Design;
-* явные типы вместо магии;
+* строгая типизация;
+* понятные названия;
 * маленькие компоненты;
-* разделение UI / model / lib / config;
-* декларативная бизнес-логика;
-* предсказуемое управление состоянием;
-* изоляция фич;
-* производительность до абстракций.
+* изолированные фичи;
+* минимум скрытой магии;
+* читаемая архитектура;
+* предсказуемый data flow;
+* стабильная производительность.
 
 </td>
 <td width="50%" valign="top">
 
-### Что ценю в коде
+### Что важно в продукте
 
-* понятность;
-* расширяемость;
-* строгую типизацию;
-* минимальный coupling;
-* отсутствие ninja-code;
-* читаемую архитектуру;
-* стабильную производительность;
-* хороший DX.
+* понятный сценарий;
+* быстрый первый результат;
+* аккуратный UI;
+* отсутствие визуального шума;
+* масштабируемая модель данных;
+* нормальный UX для реальных людей;
+* возможность быстро развивать MVP.
 
 </td>
 </tr>
@@ -275,25 +340,24 @@ src/
 
 ---
 
-## GitHub статистика
+## `github.telemetry`
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=dakwol&theme=tokyonight&hide_border=true&background=0D1117&ring=60A5FA&fire=7C3AED&currStreakLabel=60A5FA" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=dakwol&theme=tokyonight&hide_border=true&background=020617&ring=60A5FA&fire=EC4899&currStreakLabel=60A5FA" />
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dakwol&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=60A5FA&text_color=E5E7EB" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dakwol&layout=compact&theme=tokyonight&hide_border=true&bg_color=020617&title_color=60A5FA&text_color=E5E7EB" />
 
-</div>
+<br/>
+<br/>
 
-<div align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=dakwol&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=60A5FA&line=7C3AED&point=FFFFFF" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=dakwol&theme=tokyo-night&hide_border=true&bg_color=020617&color=60A5FA&line=EC4899&point=FFFFFF" />
 
 </div>
 
 ---
 
-## Контакты
+## `contact`
 
 <div align="center">
 
@@ -301,40 +365,48 @@ src/
   <img src="https://img.shields.io/badge/Telegram-Написать-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
 </a>
 
+<br/>
+<br/>
+
+```txt
+Building products, not just features.
+```
+
+<a href="#top">Наверх ↑</a>
+
 </div>
 
-<p align="center">
-  <a href="#top">Наверх ↑</a>
-</p>
+</details>
 
 ---
 
-<h1 id="en">🇺🇸 English Version</h1>
+<details id="en">
+<summary><h1>🇺🇸 English Version</h1></summary>
+
+<br/>
 
 <table>
 <tr>
 <td width="58%" valign="top">
 
-## Hi, I'm Daniil
+## `whoami`
 
-I'm a Frontend Engineer focused on complex interfaces, architecture, performance, and product development.
+I'm Daniil, a Frontend Engineer / Tech Lead.
 
-I work not only with UI, but also with the engineering side of frontend:
+My focus is not just building screens, but creating complete frontend systems: architecture, UI logic, performance, visualization, maps, 3D and product mechanics.
 
-* large-scale frontend architecture;
-* React / TypeScript / Next.js;
-* Feature-Sliced Design;
-* complex maps and geospatial visualization;
-* Three.js / WebGL / MapLibre GL;
-* design systems and UI kits;
-* performance optimization;
-* technical leadership;
-* AI-assisted engineering.
+```ts
+const dakwol = {
+  role: 'Frontend Engineer / Tech Lead',
+  focus: ['React', 'TypeScript', 'Architecture', 'Three.js', 'MapLibre', 'Product'],
+  mindset: 'Build systems, not just pages',
+};
+```
 
 </td>
 <td width="42%" valign="top">
 
-<img width="100%" src="https://github-readme-stats.vercel.app/api?username=dakwol&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=60A5FA&icon_color=7C3AED&text_color=E5E7EB" />
+<img width="100%" src="https://github-readme-stats.vercel.app/api?username=dakwol&show_icons=true&theme=tokyonight&hide_border=true&bg_color=020617&title_color=60A5FA&icon_color=EC4899&text_color=E5E7EB" />
 
 </td>
 </tr>
@@ -342,21 +414,23 @@ I work not only with UI, but also with the engineering side of frontend:
 
 ---
 
-## Core Focus
+## `system.profile`
 
 <table>
 <tr>
-<td width="25%" align="center">
+<td width="25%" valign="top" align="center">
 
 ### ⚛️ Frontend
 
 React
 TypeScript
 Next.js
-Architecture
+State Management
+Forms
+Design Systems
 
 </td>
-<td width="25%" align="center">
+<td width="25%" valign="top" align="center">
 
 ### 🌍 Maps
 
@@ -364,26 +438,29 @@ MapLibre GL
 Globe Projection
 Terrain
 Realtime Layers
+Asset Tracking
 
 </td>
-<td width="25%" align="center">
+<td width="25%" valign="top" align="center">
 
-### 🎮 3D / WebGL
+### 🎮 3D
 
 Three.js
+WebGL
 GLTF
 LOD
 GPU Optimization
 
 </td>
-<td width="25%" align="center">
+<td width="25%" valign="top" align="center">
 
-### 🚀 Product
+### 🧠 Leadership
 
-MVP
-SaaS
-UX Logic
-Team Building
+Architecture
+Code Review
+DX
+Team Processes
+Product Thinking
 
 </td>
 </tr>
@@ -391,25 +468,29 @@ Team Building
 
 ---
 
-## Tech Stack
+## `tech.stack`
 
 <div align="center">
 
-### Frontend
+### Core
 
-<img src="https://skillicons.dev/icons?i=react,ts,nextjs,redux,vite,webpack,html,css,sass" />
+<img src="https://skillicons.dev/icons?i=react,ts,nextjs,vite,webpack,html,css,sass" />
 
 <br/>
 <br/>
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge\&logo=nextdotjs)
-![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge\&logo=redux)
-![Effector](https://img.shields.io/badge/Effector-0F172A?style=for-the-badge)
-![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge)
-![React Hook Form](https://img.shields.io/badge/React_Hook_Form-EC5990?style=for-the-badge)
-![Zod](https://img.shields.io/badge/Zod-3068B7?style=for-the-badge)
+![React](https://img.shields.io/badge/React-020617?style=for-the-badge\&logo=react\&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-020617?style=for-the-badge\&logo=typescript\&logoColor=3178C6)
+![Next.js](https://img.shields.io/badge/Next.js-020617?style=for-the-badge\&logo=nextdotjs\&logoColor=FFFFFF)
+![Sass](https://img.shields.io/badge/Sass-020617?style=for-the-badge\&logo=sass\&logoColor=CC6699)
+
+### State / Data / Forms
+
+![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-020617?style=for-the-badge\&logo=redux\&logoColor=764ABC)
+![Effector](https://img.shields.io/badge/Effector-020617?style=for-the-badge\&logoColor=white)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-020617?style=for-the-badge\&logo=reactquery\&logoColor=FF4154)
+![React Hook Form](https://img.shields.io/badge/React_Hook_Form-020617?style=for-the-badge\&logo=reacthookform\&logoColor=EC5990)
+![Zod](https://img.shields.io/badge/Zod-020617?style=for-the-badge\&logoColor=3068B7)
 
 ### Visualization
 
@@ -418,87 +499,89 @@ Team Building
 <br/>
 <br/>
 
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge\&logo=threedotjs)
-![WebGL](https://img.shields.io/badge/WebGL-990000?style=for-the-badge)
-![MapLibre GL](https://img.shields.io/badge/MapLibre_GL-396CB2?style=for-the-badge)
+![Three.js](https://img.shields.io/badge/Three.js-020617?style=for-the-badge\&logo=threedotjs\&logoColor=FFFFFF)
+![WebGL](https://img.shields.io/badge/WebGL-020617?style=for-the-badge\&logo=webgl\&logoColor=990000)
+![MapLibre GL](https://img.shields.io/badge/MapLibre_GL-020617?style=for-the-badge\&logoColor=396CB2)
 
-### Backend / Tools
+### Backend / Infra / Tools
 
 <img src="https://skillicons.dev/icons?i=supabase,postgres,firebase,docker,githubactions,git,figma,vscode" />
 
 <br/>
 <br/>
 
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge\&logo=supabase\&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge\&logo=postgresql\&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge\&logo=githubactions\&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-0F172A?style=for-the-badge\&logo=figma\&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-020617?style=for-the-badge\&logo=supabase\&logoColor=3ECF8E)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-020617?style=for-the-badge\&logo=postgresql\&logoColor=4169E1)
+![Docker](https://img.shields.io/badge/Docker-020617?style=for-the-badge\&logo=docker\&logoColor=2496ED)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-020617?style=for-the-badge\&logo=githubactions\&logoColor=2088FF)
+![Figma](https://img.shields.io/badge/Figma-020617?style=for-the-badge\&logo=figma\&logoColor=F24E1E)
 
 </div>
 
 ---
 
-## Projects & Directions
+## `systems.i.build`
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:38BDF8,100:2563EB"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0:38BDF8,100:2563EB"/>
 
-### 🌍 3D Globe Platform
+### 🌍 Globe Visualization
 
-Interactive geospatial visualization system on a globe.
+Interactive 3D platform for geospatial visualization and object tracking.
 
-**Inside:**
+```txt
+MapLibre GL
+Three.js
+WebGL
+Terrain
+Realtime Tracking
+LOD
+GPU Optimization
+```
 
-* MapLibre GL;
-* Three.js;
-* WebGL rendering;
-* terrain-aware layers;
-* realtime asset tracking;
-* LOD system;
-* CPU / GPU optimization;
-* custom tooltip / overlay systems.
+**Focus:** performance, 3D scene, globe, assets, lines, tooltips, layers and render optimization.
 
 </td>
 <td width="33%" valign="top">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:8B5CF6,100:EC4899"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0:8B5CF6,100:EC4899"/>
 
 ### 🚀 Za Ideyu
 
-Platform for finding teammates and launching projects.
+Platform for finding teammates, launching projects and turning ideas into execution.
 
-**Inside:**
+```txt
+Team Matching
+Project Cards
+Motivation System
+Progress Tracking
+Product UX
+```
 
-* teammate search;
-* project cards;
-* roles and skills;
-* motivation system;
-* progress tracking;
-* team collaboration;
-* product UX logic.
+**Focus:** product logic, clean UX, teamwork, roles, skills and motivation.
 
 </td>
 <td width="33%" valign="top">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:22C55E,100:14B8A6"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0:22C55E,100:14B8A6"/>
 
 ### 💰 Finance Tracker
 
-Simple collaborative finance tracker for shared budgets.
+Collaborative finance tracker for budgets, savings and expenses.
 
-**Inside:**
+```txt
+Shared Budget
+Analytics
+Goals
+Google Sheets
+Supabase
+Mobile First
+```
 
-* income and expenses;
-* shared goals;
-* savings;
-* analytics;
-* Google Sheets / Supabase;
-* mobile-first interface;
-* simple collaboration flow.
+**Focus:** simplicity, collaboration, clear analytics and fast MVP development.
 
 </td>
 </tr>
@@ -506,7 +589,23 @@ Simple collaborative finance tracker for shared budgets.
 
 ---
 
-## Architecture Style
+## `architecture.principles`
+
+<div align="center">
+
+```txt
+┌───────────────────────────────┬───────────────────────────────┐
+│ Feature-Sliced Design         │ Explicit Types                │
+├───────────────────────────────┼───────────────────────────────┤
+│ Small Components              │ Predictable State             │
+├───────────────────────────────┼───────────────────────────────┤
+│ Performance First             │ No Magic                      │
+├───────────────────────────────┼───────────────────────────────┤
+│ Domain Logic Isolation        │ Clean Developer Experience    │
+└───────────────────────────────┴───────────────────────────────┘
+```
+
+</div>
 
 ```txt
 src/
@@ -518,34 +617,37 @@ src/
 └── shared/
 ```
 
+---
+
+## `engineering.values`
+
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Principles
+### Code Values
 
-* Feature-Sliced Design;
-* explicit types over magic;
+* strict typing;
+* clear naming;
 * small components;
-* UI / model / lib / config separation;
-* declarative business logic;
-* predictable state management;
 * isolated features;
-* performance before abstractions.
+* minimum hidden magic;
+* readable architecture;
+* predictable data flow;
+* stable performance.
 
 </td>
 <td width="50%" valign="top">
 
-### Code Values
+### Product Values
 
-* readability;
-* scalability;
-* strict typing;
-* minimal coupling;
-* no ninja-code;
-* clean architecture;
-* stable performance;
-* good DX.
+* clear user scenario;
+* fast first result;
+* polished UI;
+* low visual noise;
+* scalable data model;
+* UX for real people;
+* MVP that can evolve.
 
 </td>
 </tr>
@@ -553,25 +655,24 @@ src/
 
 ---
 
-## GitHub Metrics
+## `github.telemetry`
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=dakwol&theme=tokyonight&hide_border=true&background=0D1117&ring=60A5FA&fire=7C3AED&currStreakLabel=60A5FA" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=dakwol&theme=tokyonight&hide_border=true&background=020617&ring=60A5FA&fire=EC4899&currStreakLabel=60A5FA" />
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dakwol&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=60A5FA&text_color=E5E7EB" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dakwol&layout=compact&theme=tokyonight&hide_border=true&bg_color=020617&title_color=60A5FA&text_color=E5E7EB" />
 
-</div>
+<br/>
+<br/>
 
-<div align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=dakwol&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=60A5FA&line=7C3AED&point=FFFFFF" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=dakwol&theme=tokyo-night&hide_border=true&bg_color=020617&color=60A5FA&line=EC4899&point=FFFFFF" />
 
 </div>
 
 ---
 
-## Contacts
+## `contact`
 
 <div align="center">
 
@@ -579,16 +680,23 @@ src/
   <img src="https://img.shields.io/badge/Telegram-Contact-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
 </a>
 
+<br/>
+<br/>
+
+```txt
+Building products, not just features.
+```
+
+<a href="#top">Back to top ↑</a>
+
 </div>
 
-<p align="center">
-  <a href="#top">Back to top ↑</a>
-</p>
+</details>
 
 ---
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=180&color=0:7C3AED,50:1D4ED8,100:020617"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=180&color=0:EC4899,40:7C3AED,70:1E3A8A,100:020617"/>
 
 </div>
