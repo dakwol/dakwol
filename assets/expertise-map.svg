@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="0 0 1400 500" role="img" aria-label="Избранные проекты">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="620" viewBox="0 0 1400 620" role="img" aria-label="Карта компетенций">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#050d12"/>
@@ -146,6 +146,22 @@
       animation: appear 8s 1.5s ease-in-out infinite;
     }
 
+    .coreOrbit {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: coreOrbit 12s linear infinite;
+    }
+
+    .geoCube {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: geoCube 7s ease-in-out infinite;
+    }
+
+    .geoScan {
+      animation: geoScan 4s ease-in-out infinite;
+    }
+
     @keyframes grid {
       to {
         transform: translate(32px, 24px);
@@ -167,7 +183,7 @@
       }
 
       100% {
-        transform: translateY(650px);
+        transform: translateY(770px);
         opacity: 0;
       }
     }
@@ -258,50 +274,114 @@
         transform: translateX(0);
       }
     }
+
+    @keyframes coreOrbit {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes geoCube {
+      0%, 100% {
+        transform: translateY(0) rotate(0deg);
+      }
+
+      50% {
+        transform: translateY(-7px) rotate(3deg);
+      }
+    }
+
+    @keyframes geoScan {
+      0%, 100% {
+        opacity: .18;
+      }
+
+      50% {
+        opacity: .72;
+      }
+    }
   </style>
 
-  <rect width="1400" height="500" rx="12" fill="url(#bg)"/>
-  <rect x="1" y="1" width="1398" height="498" rx="11" fill="none" stroke="#285256"/>
+  <rect width="1400" height="620" rx="12" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1398" height="618" rx="11" fill="none" stroke="#285256"/>
 
   <g class="grid">
-    <rect x="-32" y="-24" width="1464" height="548" fill="url(#grid)"/>
+    <rect x="-32" y="-24" width="1464" height="668" fill="url(#grid)"/>
   </g>
 
   <g transform="translate(55 42)">
-    <text class="label" font-size="18">SELECTED PROJECTS // ИЗБРАННЫЕ ПРОЕКТЫ</text>
+    <text class="label" font-size="18">EXPERTISE MAP // КАРТА КОМПЕТЕНЦИЙ</text>
     <path d="M0 26H1290" class="thin"/>
 
-    <g transform="translate(0 70)">
-      <g>
-        <rect width="620" height="150" fill="#0b161a" stroke="#285256"/>
-        <text x="24" y="34" class="label" font-size="18">01 / PRIZMA</text>
-        <text x="24" y="70" class="text" font-size="17">Архитектурная модель цифрового мира</text>
-        <text x="24" y="100" class="muted" font-size="14">ARCHITECTURE · DOMAIN MODEL · PROJECTIONS</text>
-        <circle cx="575" cy="32" r="6" fill="#4db6b6" class="pulse"/>
+    <g transform="translate(55 95)">
+      <circle cx="595" cy="215" r="78" fill="#0d2023" stroke="#4db6b6"/>
+      <circle cx="595" cy="215" r="105" class="thin dash"/>
+
+      <g class="coreOrbit">
+        <ellipse cx="595" cy="215" rx="128" ry="38" class="thin"/>
+        <ellipse cx="595" cy="215" rx="128" ry="38" class="thin" transform="rotate(60 595 215)"/>
+        <ellipse cx="595" cy="215" rx="128" ry="38" class="thin" transform="rotate(-60 595 215)"/>
       </g>
 
-      <g transform="translate(670 0)">
-        <rect width="620" height="150" fill="#0b161a" stroke="#285256"/>
-        <text x="24" y="34" class="label" font-size="18">02 / GEOSIGHT</text>
-        <text x="24" y="70" class="text" font-size="17">Геопространственный frontend-проект</text>
-        <text x="24" y="100" class="muted" font-size="14">MAPS · 3D · GEO DATA · VISUALIZATION</text>
-        <circle cx="575" cy="32" r="6" fill="#4db6b6" class="pulse"/>
+      <text x="595" y="207" text-anchor="middle" class="text" font-size="23" font-weight="700">
+        FRONTEND
+      </text>
+      <text x="595" y="237" text-anchor="middle" class="label" font-size="14">
+        SYSTEM ENGINEERING
+      </text>
+
+      <path
+        d="M490 175L270 85M700 175L920 85M490 255L270 345M700 255L920 345"
+        class="thin draw"
+        stroke-width="2"
+      />
+
+      <g transform="translate(0 20)">
+        <rect width="310" height="145" fill="#0b161a" stroke="#285256"/>
+        <text x="20" y="30" class="label" font-size="16">PLATFORM &amp; ARCHITECTURE</text>
+        <text x="20" y="64" class="text" font-size="15">TypeScript · React · Next.js</text>
+        <text x="20" y="91" class="text" font-size="15">FSD · Effector · URQL</text>
+        <text x="20" y="118" class="text" font-size="15">RHF · Zod · Design Systems</text>
       </g>
 
-      <g transform="translate(0 180)">
-        <rect width="620" height="150" fill="#0b161a" stroke="#285256"/>
-        <text x="24" y="34" class="label" font-size="18">03 / FINANCE TRACKER WEB</text>
-        <text x="24" y="70" class="text" font-size="17">Финансовое пространство на Next.js</text>
-        <text x="24" y="100" class="muted" font-size="14">NEXT.JS · GOOGLE SHEETS · DRIVE API</text>
-        <circle cx="575" cy="32" r="6" fill="#4db6b6" class="pulse"/>
+      <g transform="translate(880 20)">
+        <g class="geoCube" transform="translate(238 28) scale(.35)">
+          <path
+            d="M0 70L92 14l110 58-92 58zM0 70v100l110 60V130M202 72v100l-92 58"
+            fill="none"
+            stroke="#4db6b6"
+            stroke-width="4"
+          />
+          <path
+            class="geoScan"
+            d="M110 130L290 20L310 145Z"
+            fill="#4db6b6"
+            fill-opacity=".12"
+            stroke="#4db6b6"
+          />
+        </g>
+
+        <rect width="310" height="145" fill="#0b161a" stroke="#285256"/>
+        <text x="20" y="30" class="label" font-size="16">3D &amp; GEO</text>
+        <text x="20" y="64" class="text" font-size="15">Three.js · WebGL</text>
+        <text x="20" y="91" class="text" font-size="15">MapLibre GL · Terrain</text>
+        <text x="20" y="118" class="text" font-size="15">LOD · Culling · Custom Layers</text>
       </g>
 
-      <g transform="translate(670 180)">
-        <rect width="620" height="150" fill="#0b161a" stroke="#285256"/>
-        <text x="24" y="34" class="label" font-size="18">04 / INDICATOR</text>
-        <text x="24" y="70" class="text" font-size="17">Интерфейсные и архитектурные решения</text>
-        <text x="24" y="100" class="muted" font-size="14">EXPERIMENTS · UI · ARCHITECTURE</text>
-        <circle cx="575" cy="32" r="6" fill="#4db6b6" class="pulse"/>
+      <g transform="translate(0 295)">
+        <rect width="310" height="145" fill="#0b161a" stroke="#285256"/>
+        <text x="20" y="30" class="label" font-size="16">REAL-TIME &amp; MEDIA</text>
+        <text x="20" y="64" class="text" font-size="15">WebRTC · WHEP · HLS</text>
+        <text x="20" y="91" class="text" font-size="15">SignalR · WebSocket</text>
+        <text x="20" y="118" class="text" font-size="15">Live telemetry · Streaming</text>
+      </g>
+
+      <g transform="translate(880 295)">
+        <rect width="310" height="145" fill="#0b161a" stroke="#285256"/>
+        <text x="20" y="30" class="label" font-size="16">QUALITY &amp; PERFORMANCE</text>
+        <text x="20" y="64" class="text" font-size="15">CPU / GPU profiling</text>
+        <text x="20" y="91" class="text" font-size="15">Heap snapshots · DevTools</text>
+        <text x="20" y="118" class="text" font-size="15">Batching · Rendering budgets</text>
       </g>
     </g>
   </g>

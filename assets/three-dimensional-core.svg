@@ -1,0 +1,417 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="690" viewBox="0 0 1400 690" role="img" aria-label="3D, GIS и browser graphics">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#050d12"/>
+      <stop offset=".55" stop-color="#0b171b"/>
+      <stop offset="1" stop-color="#050d12"/>
+    </linearGradient>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#4db6b6" stroke-opacity=".09"/>
+    </pattern>
+
+    <radialGradient id="globeGlow">
+      <stop stop-color="#4db6b6" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#4db6b6" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#4db6b6" stop-opacity=".52"/>
+      <stop offset="1" stop-color="#4db6b6" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="scanGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4db6b6" stop-opacity="0"/>
+      <stop offset=".34" stop-color="#4db6b6" stop-opacity=".025"/>
+      <stop offset=".72" stop-color="#4db6b6" stop-opacity=".11"/>
+      <stop offset=".94" stop-color="#7ce6e4" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#7ce6e4" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="scanLineGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7ce6e4" stop-opacity="0"/>
+      <stop offset=".12" stop-color="#7ce6e4" stop-opacity=".3"/>
+      <stop offset=".5" stop-color="#b3ffff" stop-opacity=".85"/>
+      <stop offset=".88" stop-color="#7ce6e4" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#7ce6e4" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="scanGlow" x="-10%" y="-400%" width="120%" height="900%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    :root {
+      --accent: #4db6b6;
+      --accent2: #208080;
+      --text: #d9e5e4;
+      --muted: #769392;
+      --panel: #091418;
+    }
+
+    text {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+
+    .label {
+      fill: var(--accent);
+      letter-spacing: 2px;
+    }
+
+    .text {
+      fill: var(--text);
+    }
+
+    .muted {
+      fill: var(--muted);
+    }
+
+    .thin {
+      fill: none;
+      stroke: var(--accent);
+      stroke-opacity: .38;
+    }
+
+    .grid {
+      animation: gridMove 16s linear infinite;
+    }
+
+    .cube {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: cubeOrbit 9s ease-in-out infinite;
+    }
+
+    .cubeBack {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: cubeOrbitBack 13s ease-in-out infinite;
+    }
+
+    .globe {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: globeFloat 7s ease-in-out infinite;
+    }
+
+    .meridian {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: meridianRotate 12s linear infinite;
+    }
+
+    .route {
+      stroke-dasharray: 10 12;
+      animation: routeMove 6s linear infinite;
+    }
+
+    .node {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: nodePulse 2.4s ease-in-out infinite;
+    }
+
+    .node2 {
+      animation-delay: .8s;
+    }
+
+    .node3 {
+      animation-delay: 1.6s;
+    }
+
+    .beam {
+      animation: beamPulse 4s ease-in-out infinite;
+    }
+
+    .scan {
+      animation: scan 8s linear infinite;
+      pointer-events: none;
+    }
+
+    .panel {
+      animation: panelDepth 8s ease-in-out infinite;
+    }
+
+    .panel2 {
+      animation-delay: 1.2s;
+    }
+
+    .panel3 {
+      animation-delay: 2.4s;
+    }
+
+    .wire {
+      stroke-dasharray: 700;
+      stroke-dashoffset: 700;
+      animation: wireDraw 7s ease-in-out infinite;
+    }
+
+    @keyframes gridMove {
+      to {
+        transform: translate(32px, 24px);
+      }
+    }
+
+    @keyframes cubeOrbit {
+      0%, 100% {
+        transform: translate(0, 0) rotate(0deg) scale(1);
+      }
+
+      50% {
+        transform: translate(18px, -16px) rotate(4deg) scale(1.04);
+      }
+    }
+
+    @keyframes cubeOrbitBack {
+      0%, 100% {
+        transform: translate(0, 0) rotate(0deg);
+      }
+
+      50% {
+        transform: translate(-14px, 12px) rotate(-5deg);
+      }
+    }
+
+    @keyframes globeFloat {
+      0%, 100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-12px);
+      }
+    }
+
+    @keyframes meridianRotate {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes routeMove {
+      to {
+        stroke-dashoffset: -220;
+      }
+    }
+
+    @keyframes nodePulse {
+      0%, 100% {
+        opacity: .4;
+        transform: scale(.75);
+      }
+
+      50% {
+        opacity: 1;
+        transform: scale(1.35);
+      }
+    }
+
+    @keyframes beamPulse {
+      0%, 100% {
+        opacity: .22;
+      }
+
+      50% {
+        opacity: .75;
+      }
+    }
+
+    @keyframes scan {
+      0% {
+        transform: translateY(-150px);
+        opacity: 0;
+      }
+
+      8% {
+        opacity: 1;
+      }
+
+      88% {
+        opacity: 1;
+      }
+
+      100% {
+        transform: translateY(840px);
+        opacity: 0;
+      }
+    }
+
+    @keyframes panelDepth {
+      0%, 100% {
+        transform: translate(0, 0);
+        opacity: .45;
+      }
+
+      50% {
+        transform: translate(8px, -8px);
+        opacity: .9;
+      }
+    }
+
+    @keyframes wireDraw {
+      0% {
+        stroke-dashoffset: 700;
+        opacity: .15;
+      }
+
+      45%, 78% {
+        stroke-dashoffset: 0;
+        opacity: 1;
+      }
+
+      100% {
+        stroke-dashoffset: -700;
+        opacity: .15;
+      }
+    }
+  </style>
+
+  <rect width="1400" height="690" rx="12" fill="url(#background)"/>
+  <rect x="1" y="1" width="1398" height="688" rx="11" fill="none" stroke="#285256"/>
+
+  <g class="grid">
+    <rect x="-32" y="-24" width="1464" height="738" fill="url(#grid)"/>
+  </g>
+
+  <g transform="translate(55 42)">
+    <text class="label" font-size="18">3D SYSTEMS // BROWSER GRAPHICS</text>
+    <path d="M0 28H1290" class="thin"/>
+  </g>
+
+  <g transform="translate(55 105)">
+    <g>
+      <rect width="370" height="500" fill="#071216" stroke="#285256"/>
+      <text x="26" y="42" class="label" font-size="16">RENDER PIPELINE</text>
+
+      <g transform="translate(55 100)">
+        <g class="panel">
+          <path d="M0 65L110 0l150 75-110 68z" fill="#0d2427" stroke="#4db6b6"/>
+          <path d="M0 65v54l140 72v-48zM260 75v52l-120 64v-48z" fill="#0a191d" stroke="#4db6b6" stroke-opacity=".55"/>
+        </g>
+      </g>
+
+      <g transform="translate(55 190)" opacity=".7">
+        <g class="panel panel2">
+          <path d="M0 65L110 0l150 75-110 68z" fill="none" stroke="#4db6b6"/>
+          <path d="M0 65v54l140 72v-48zM260 75v52l-120 64v-48z" fill="none" stroke="#4db6b6" stroke-opacity=".55"/>
+        </g>
+      </g>
+
+      <g transform="translate(55 280)" opacity=".45">
+        <g class="panel panel3">
+          <path d="M0 65L110 0l150 75-110 68z" fill="none" stroke="#4db6b6"/>
+          <path d="M0 65v54l140 72v-48zM260 75v52l-120 64v-48z" fill="none" stroke="#4db6b6" stroke-opacity=".55"/>
+        </g>
+      </g>
+
+      <text x="56" y="462" class="muted" font-size="15">WebGL · Three.js · GPU pipeline</text>
+    </g>
+
+    <g transform="translate(405 0)">
+      <rect width="480" height="500" fill="#071216" stroke="#285256"/>
+      <text x="26" y="42" class="label" font-size="16">GEOSPATIAL SCENE</text>
+
+      <circle cx="240" cy="255" r="176" fill="url(#globeGlow)"/>
+
+      <g class="globe">
+        <circle cx="240" cy="255" r="132" fill="#0a171b" stroke="#4db6b6" stroke-width="2"/>
+
+        <ellipse cx="240" cy="255" rx="132" ry="48" class="thin"/>
+        <ellipse cx="240" cy="255" rx="132" ry="92" class="thin"/>
+
+        <g class="meridian">
+          <ellipse cx="240" cy="255" rx="54" ry="132" class="thin"/>
+          <ellipse cx="240" cy="255" rx="96" ry="132" class="thin"/>
+        </g>
+
+        <path class="route" d="M118 280C170 160 235 360 352 198" fill="none" stroke="#d6c1a3" stroke-width="3"/>
+
+        <circle cx="118" cy="280" r="6" fill="#4db6b6" class="node"/>
+        <circle cx="235" cy="277" r="6" fill="#4db6b6" class="node node2"/>
+        <circle cx="352" cy="198" r="6" fill="#d6c1a3" class="node node3"/>
+
+        <path class="beam" d="M240 255L405 105L352 198Z" fill="url(#beam)" stroke="#4db6b6" stroke-opacity=".42"/>
+      </g>
+
+      <text x="66" y="462" class="muted" font-size="15">MapLibre GL · terrain · globe · telemetry</text>
+    </g>
+
+    <g transform="translate(920 0)">
+      <rect width="370" height="500" fill="#071216" stroke="#285256"/>
+      <text x="26" y="42" class="label" font-size="16">LOD / CULLING</text>
+
+      <g transform="translate(68 102)" opacity=".38">
+        <g class="cubeBack">
+          <path d="M0 70L92 14l110 58-92 58zM0 70v100l110 60V130M202 72v100l-92 58" class="thin"/>
+        </g>
+      </g>
+
+      <g transform="translate(95 155)">
+        <g class="cube">
+          <path d="M0 70L92 14l110 58-92 58z" fill="#0d2427" stroke="#4db6b6" stroke-width="2"/>
+          <path d="M0 70v100l110 60V130z" fill="#0a171b" stroke="#4db6b6"/>
+          <path d="M202 72v100l-92 58V130z" fill="#10282b" stroke="#4db6b6"/>
+        </g>
+      </g>
+
+      <path d="M44 390H324M70 420H298" class="thin route"/>
+
+      <circle cx="44" cy="390" r="5" fill="#4db6b6" class="node"/>
+      <circle cx="184" cy="390" r="5" fill="#4db6b6" class="node node2"/>
+      <circle cx="324" cy="390" r="5" fill="#4db6b6" class="node node3"/>
+
+      <text x="36" y="462" class="muted" font-size="15">1000 objects · batching · visibility</text>
+    </g>
+  </g>
+
+  <path
+    class="wire"
+    d="M36 638C220 590 330 665 500 615S820 570 1015 624s250 12 350-25"
+    fill="none"
+    stroke="#4db6b6"
+    stroke-opacity=".28"
+    stroke-width="2"
+  />
+
+  <g class="scan">
+    <rect
+      x="0"
+      y="-126"
+      width="1400"
+      height="126"
+      fill="url(#scanGradient)"
+    />
+
+    <rect
+      x="0"
+      y="-4"
+      width="1400"
+      height="2"
+      fill="url(#scanLineGradient)"
+      filter="url(#scanGlow)"
+      opacity=".78"
+    />
+
+    <rect
+      x="0"
+      y="-2"
+      width="1400"
+      height="1"
+      fill="#d5ffff"
+      opacity=".48"
+    />
+  </g>
+</svg>

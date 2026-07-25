@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="0 0 1400 500" role="img" aria-label="Инженерные принципы">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050d12"/><stop offset=".55" stop-color="#0b171b"/><stop offset="1" stop-color="#050d12"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#4db6b6" stroke-opacity=".11"/></pattern>
+<linearGradient id="scanG" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#4db6b6" stop-opacity="0"/>
+<stop offset=".34" stop-color="#4db6b6" stop-opacity=".025"/>
+<stop offset=".72" stop-color="#4db6b6" stop-opacity=".11"/>
+<stop offset=".94" stop-color="#7ce6e4" stop-opacity=".24"/>
+<stop offset="1" stop-color="#7ce6e4" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="scanLineG" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#7ce6e4" stop-opacity="0"/>
+<stop offset=".12" stop-color="#7ce6e4" stop-opacity=".3"/>
+<stop offset=".5" stop-color="#b3ffff" stop-opacity=".85"/>
+<stop offset=".88" stop-color="#7ce6e4" stop-opacity=".3"/>
+<stop offset="1" stop-color="#7ce6e4" stop-opacity="0"/>
+</linearGradient>
+<filter id="scanGlow" x="-10%" y="-400%" width="120%" height="900%">
+<feGaussianBlur stdDeviation="4" result="blur"/>
+<feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+:root{--bg:#050d12;--panel:#0f1b1f;--panel2:#10191d;--line:#203f42;--accent:#4db6b6;--accent2:#208080;--text:#d9e5e4;--muted:#769392;--sand:#d6c1a3;--brown:#8a6e4d}
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.label{fill:var(--accent);letter-spacing:2px}.text{fill:var(--text)}.muted{fill:var(--muted)}.frame{fill:none;stroke:var(--accent);stroke-opacity:.55}.thin{fill:none;stroke:var(--accent);stroke-opacity:.34}.grid{opacity:.32;animation:grid 18s linear infinite}.scan{animation:scan 7s linear infinite}.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.8s ease-in-out infinite}.dash{stroke-dasharray:8 12;animation:dash 14s linear infinite}.blink{animation:blink 1.2s steps(1) infinite}.fade1{animation:fade 5s ease-in-out infinite}.float{animation:float 6s ease-in-out infinite}.draw{stroke-dasharray:800;stroke-dashoffset:800;animation:draw 5s ease forwards infinite}.bar{transform-origin:left center;animation:bar 5s ease-in-out infinite}.row1{animation:appear 8s ease-in-out infinite}.row2{animation:appear 8s .5s ease-in-out infinite}.row3{animation:appear 8s 1s ease-in-out infinite}.row4{animation:appear 8s 1.5s ease-in-out infinite}
+@keyframes grid{to{transform:translate(32px,24px)}}@keyframes scan{0%{transform:translateY(-150px);opacity:0}8%{opacity:1}88%{opacity:1}100%{transform:translateY(650px);opacity:0}}@keyframes pulse{0%,100%{opacity:.35;transform:scale(.82)}50%{opacity:1;transform:scale(1.25)}}@keyframes dash{to{stroke-dashoffset:-400}}@keyframes blink{50%{opacity:0}}@keyframes fade{0%,100%{opacity:.35}50%{opacity:1}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@keyframes draw{0%{stroke-dashoffset:800;opacity:.1}40%,85%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:-800;opacity:.1}}@keyframes bar{0%,15%{transform:scaleX(.12)}50%,85%{transform:scaleX(1)}100%{transform:scaleX(.12)}}@keyframes appear{0%,8%,100%{opacity:.2;transform:translateX(-8px)}20%,80%{opacity:1;transform:translateX(0)}}
+</style>
+
+<rect width="1400" height="500" rx="12" fill="url(#bg)"/><rect x="1" y="1" width="1398" height="498" rx="11" fill="none" stroke="#285256"/><g class="grid"><rect x="-32" y="-24" width="1464" height="548" fill="url(#grid)"/></g>
+
+<g transform="translate(55 42)"><text class="label" font-size="18">DECISION ENGINE // КАК Я ПРИНИМАЮ РЕШЕНИЯ</text><path d="M0 26H1290" class="thin"/>
+<g transform="translate(0 70)"><rect width="780" height="330" fill="#081216" stroke="#285256"/><circle cx="22" cy="22" r="5" fill="#4db6b6"/><circle cx="42" cy="22" r="5" fill="#208080"/><circle cx="62" cy="22" r="5" fill="#8a6e4d"/><text x="24" y="70" class="muted" font-size="15">enum EngineeringPriority &#123;</text><text x="48" y="106" class="text" font-size="17">Correctness = 'correctness',</text><text x="48" y="142" class="text" font-size="17">Maintainability = 'maintainability',</text><text x="48" y="178" class="text" font-size="17">Performance = 'performance',</text><text x="48" y="214" class="text" font-size="17">Delivery = 'delivery',</text><text x="24" y="250" class="muted" font-size="15">&#125;</text><text x="24" y="300" class="label" font-size="14">$ evaluate constraints<tspan class="blink">_</tspan></text></g>
+<g transform="translate(820 70)"><rect width="470" height="330" fill="#0b161a" stroke="#285256"/><text x="25" y="42" class="muted" font-size="15">PRIORITY PIPELINE</text>
+<text x="25" y="88" class="text" font-size="16">01  ПОНЯТЬ ОГРАНИЧЕНИЯ</text><rect x="25" y="103" width="390" height="5" fill="#183235"/><rect x="25" y="103" width="390" height="5" fill="#4db6b6" class="bar"/>
+<text x="25" y="146" class="text" font-size="16">02  ЗАДАТЬ ГРАНИЦЫ</text><rect x="25" y="161" width="390" height="5" fill="#183235"/><rect x="25" y="161" width="350" height="5" fill="#4db6b6" class="bar"/>
+<text x="25" y="204" class="text" font-size="16">03  ИЗМЕРИТЬ РЕЗУЛЬТАТ</text><rect x="25" y="219" width="390" height="5" fill="#183235"/><rect x="25" y="219" width="330" height="5" fill="#4db6b6" class="bar"/>
+<text x="25" y="262" class="text" font-size="16">04  ЗАКРЕПИТЬ РЕШЕНИЕ</text><rect x="25" y="277" width="390" height="5" fill="#183235"/><rect x="25" y="277" width="370" height="5" fill="#4db6b6" class="bar"/></g></g>
+<g class="scan" pointer-events="none">
+<rect x="0" y="-126" width="1400" height="126" fill="url(#scanG)"/>
+<rect x="0" y="-4" width="1400" height="2" fill="url(#scanLineG)" filter="url(#scanGlow)" opacity=".78"/>
+<rect x="0" y="-2" width="1400" height="1" fill="#d5ffff" opacity=".48"/>
+</g>
+</svg>

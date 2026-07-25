@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="0 0 1400 500" role="img" aria-label="Избранные проекты">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="440" viewBox="0 0 1400 440" role="img" aria-label="Инженерный профиль">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#050d12"/>
@@ -167,7 +167,7 @@
       }
 
       100% {
-        transform: translateY(650px);
+        transform: translateY(590px);
         opacity: 0;
       }
     }
@@ -260,48 +260,59 @@
     }
   </style>
 
-  <rect width="1400" height="500" rx="12" fill="url(#bg)"/>
-  <rect x="1" y="1" width="1398" height="498" rx="11" fill="none" stroke="#285256"/>
+  <rect width="1400" height="440" rx="12" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1398" height="438" rx="11" fill="none" stroke="#285256"/>
 
   <g class="grid">
-    <rect x="-32" y="-24" width="1464" height="548" fill="url(#grid)"/>
+    <rect x="-32" y="-24" width="1464" height="488" fill="url(#grid)"/>
   </g>
 
   <g transform="translate(55 42)">
-    <text class="label" font-size="18">SELECTED PROJECTS // ИЗБРАННЫЕ ПРОЕКТЫ</text>
+    <text class="label" font-size="18">SYSTEM PROFILE // ИНЖЕНЕРНЫЙ ПРОФИЛЬ</text>
     <path d="M0 26H1290" class="thin"/>
 
-    <g transform="translate(0 70)">
-      <g>
-        <rect width="620" height="150" fill="#0b161a" stroke="#285256"/>
-        <text x="24" y="34" class="label" font-size="18">01 / PRIZMA</text>
-        <text x="24" y="70" class="text" font-size="17">Архитектурная модель цифрового мира</text>
-        <text x="24" y="100" class="muted" font-size="14">ARCHITECTURE · DOMAIN MODEL · PROJECTIONS</text>
-        <circle cx="575" cy="32" r="6" fill="#4db6b6" class="pulse"/>
+    <g transform="translate(0 65)">
+      <rect width="420" height="290" fill="#0b161a" stroke="#285256"/>
+
+      <text x="26" y="42" class="muted" font-size="15">IDENTITY</text>
+      <text x="26" y="86" class="text" font-size="28" font-weight="700">ДАНИИЛ ФОМЕНКО</text>
+      <text x="26" y="126" class="label" font-size="17">SENIOR FRONTEND ENGINEER</text>
+
+      <text x="26" y="180" class="muted" font-size="15">DOMAIN</text>
+      <text x="26" y="222" class="text" font-size="17">COMPLEX WEB SYSTEMS</text>
+      <text x="26" y="250" class="text" font-size="17">3D · GIS · REAL-TIME</text>
+    </g>
+
+    <g transform="translate(455 65)">
+      <rect width="835" height="290" fill="#0b161a" stroke="#285256"/>
+
+      <text x="26" y="42" class="muted" font-size="15">MISSION</text>
+
+      <text x="26" y="84" class="text" font-size="22">
+        <tspan x="26">Проектирую frontend-системы, которые сохраняют</tspan>
+        <tspan x="26" dy="34">понятность при росте команды, продукта и данных.</tspan>
+      </text>
+
+      <text x="26" y="176" class="muted" font-size="15">OPERATING PRINCIPLES</text>
+
+      <g class="row1">
+        <circle cx="32" cy="210" r="5" fill="#4db6b6"/>
+        <text x="52" y="216" class="text" font-size="16">Корректность раньше декоративной сложности</text>
       </g>
 
-      <g transform="translate(670 0)">
-        <rect width="620" height="150" fill="#0b161a" stroke="#285256"/>
-        <text x="24" y="34" class="label" font-size="18">02 / GEOSIGHT</text>
-        <text x="24" y="70" class="text" font-size="17">Геопространственный frontend-проект</text>
-        <text x="24" y="100" class="muted" font-size="14">MAPS · 3D · GEO DATA · VISUALIZATION</text>
-        <circle cx="575" cy="32" r="6" fill="#4db6b6" class="pulse"/>
+      <g class="row2">
+        <circle cx="32" cy="244" r="5" fill="#4db6b6"/>
+        <text x="52" y="250" class="text" font-size="16">Измеримая производительность</text>
       </g>
 
-      <g transform="translate(0 180)">
-        <rect width="620" height="150" fill="#0b161a" stroke="#285256"/>
-        <text x="24" y="34" class="label" font-size="18">03 / FINANCE TRACKER WEB</text>
-        <text x="24" y="70" class="text" font-size="17">Финансовое пространство на Next.js</text>
-        <text x="24" y="100" class="muted" font-size="14">NEXT.JS · GOOGLE SHEETS · DRIVE API</text>
-        <circle cx="575" cy="32" r="6" fill="#4db6b6" class="pulse"/>
+      <g class="row3">
+        <circle cx="450" cy="210" r="5" fill="#4db6b6"/>
+        <text x="470" y="216" class="text" font-size="16">Ясные технические границы</text>
       </g>
 
-      <g transform="translate(670 180)">
-        <rect width="620" height="150" fill="#0b161a" stroke="#285256"/>
-        <text x="24" y="34" class="label" font-size="18">04 / INDICATOR</text>
-        <text x="24" y="70" class="text" font-size="17">Интерфейсные и архитектурные решения</text>
-        <text x="24" y="100" class="muted" font-size="14">EXPERIMENTS · UI · ARCHITECTURE</text>
-        <circle cx="575" cy="32" r="6" fill="#4db6b6" class="pulse"/>
+      <g class="row4">
+        <circle cx="450" cy="244" r="5" fill="#4db6b6"/>
+        <text x="470" y="250" class="text" font-size="16">Развитие инженерной команды</text>
       </g>
     </g>
   </g>

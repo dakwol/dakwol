@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="430" viewBox="0 0 1400 430" role="img" aria-label="Сейчас в фокусе">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050d12"/><stop offset=".55" stop-color="#0b171b"/><stop offset="1" stop-color="#050d12"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#4db6b6" stroke-opacity=".11"/></pattern>
+<linearGradient id="scanG" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#4db6b6" stop-opacity="0"/>
+<stop offset=".34" stop-color="#4db6b6" stop-opacity=".025"/>
+<stop offset=".72" stop-color="#4db6b6" stop-opacity=".11"/>
+<stop offset=".94" stop-color="#7ce6e4" stop-opacity=".24"/>
+<stop offset="1" stop-color="#7ce6e4" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="scanLineG" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#7ce6e4" stop-opacity="0"/>
+<stop offset=".12" stop-color="#7ce6e4" stop-opacity=".3"/>
+<stop offset=".5" stop-color="#b3ffff" stop-opacity=".85"/>
+<stop offset=".88" stop-color="#7ce6e4" stop-opacity=".3"/>
+<stop offset="1" stop-color="#7ce6e4" stop-opacity="0"/>
+</linearGradient>
+<filter id="scanGlow" x="-10%" y="-400%" width="120%" height="900%">
+<feGaussianBlur stdDeviation="4" result="blur"/>
+<feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+:root{--bg:#050d12;--panel:#0f1b1f;--panel2:#10191d;--line:#203f42;--accent:#4db6b6;--accent2:#208080;--text:#d9e5e4;--muted:#769392;--sand:#d6c1a3;--brown:#8a6e4d}
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.label{fill:var(--accent);letter-spacing:2px}.text{fill:var(--text)}.muted{fill:var(--muted)}.frame{fill:none;stroke:var(--accent);stroke-opacity:.55}.thin{fill:none;stroke:var(--accent);stroke-opacity:.34}.grid{opacity:.32;animation:grid 18s linear infinite}.scan{animation:scan 7s linear infinite}.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.8s ease-in-out infinite}.dash{stroke-dasharray:8 12;animation:dash 14s linear infinite}.blink{animation:blink 1.2s steps(1) infinite}.fade1{animation:fade 5s ease-in-out infinite}.float{animation:float 6s ease-in-out infinite}.draw{stroke-dasharray:800;stroke-dashoffset:800;animation:draw 5s ease forwards infinite}.bar{transform-origin:left center;animation:bar 5s ease-in-out infinite}.row1{animation:appear 8s ease-in-out infinite}.row2{animation:appear 8s .5s ease-in-out infinite}.row3{animation:appear 8s 1s ease-in-out infinite}.row4{animation:appear 8s 1.5s ease-in-out infinite}
+@keyframes grid{to{transform:translate(32px,24px)}}@keyframes scan{0%{transform:translateY(-150px);opacity:0}8%{opacity:1}88%{opacity:1}100%{transform:translateY(580px);opacity:0}}@keyframes pulse{0%,100%{opacity:.35;transform:scale(.82)}50%{opacity:1;transform:scale(1.25)}}@keyframes dash{to{stroke-dashoffset:-400}}@keyframes blink{50%{opacity:0}}@keyframes fade{0%,100%{opacity:.35}50%{opacity:1}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@keyframes draw{0%{stroke-dashoffset:800;opacity:.1}40%,85%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:-800;opacity:.1}}@keyframes bar{0%,15%{transform:scaleX(.12)}50%,85%{transform:scaleX(1)}100%{transform:scaleX(.12)}}@keyframes appear{0%,8%,100%{opacity:.2;transform:translateX(-8px)}20%,80%{opacity:1;transform:translateX(0)}}
+</style>
+
+<rect width="1400" height="430" rx="12" fill="url(#bg)"/><rect x="1" y="1" width="1398" height="428" rx="11" fill="none" stroke="#285256"/><g class="grid"><rect x="-32" y="-24" width="1464" height="478" fill="url(#grid)"/></g>
+
+<g transform="translate(55 42)"><text class="label" font-size="18">CURRENT FOCUS // СЕЙЧАС В ФОКУСЕ</text><path d="M0 26H1290" class="thin"/>
+<g transform="translate(0 70)">
+<g class="row1"><text y="25" class="label" font-size="15">[ACTIVE]</text><text x="110" y="25" class="text" font-size="19">Развитие архитектуры Prizma</text><path d="M820 20H1280" class="thin dash"/></g>
+<g transform="translate(0 62)"><g class="row2"><text y="25" class="label" font-size="15">[ACTIVE]</text><text x="110" y="25" class="text" font-size="19">GPU-ориентированная browser-графика</text><path d="M820 20H1280" class="thin dash"/></g></g>
+<g transform="translate(0 124)"><g class="row3"><text y="25" class="label" font-size="15">[ACTIVE]</text><text x="110" y="25" class="text" font-size="19">Визуализация больших объёмов динамических объектов</text><path d="M820 20H1280" class="thin dash"/></g></g>
+<g transform="translate(0 186)"><g class="row4"><text y="25" class="label" font-size="15">[ACTIVE]</text><text x="110" y="25" class="text" font-size="19">AI-инструменты для инженерных процессов</text><path d="M820 20H1280" class="thin dash"/></g></g>
+<g transform="translate(0 248)" class="fade1"><text y="25" class="label" font-size="15">[BUILD ]</text><text x="110" y="25" class="text" font-size="19">Формирование команды СБОРКА</text><path d="M820 20H1280" class="thin dash"/></g>
+</g></g>
+<g class="scan" pointer-events="none">
+<rect x="0" y="-126" width="1400" height="126" fill="url(#scanG)"/>
+<rect x="0" y="-4" width="1400" height="2" fill="url(#scanLineG)" filter="url(#scanGlow)" opacity=".78"/>
+<rect x="0" y="-2" width="1400" height="1" fill="#d5ffff" opacity=".48"/>
+</g>
+</svg>
