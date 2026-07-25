@@ -1,4 +1,3 @@
-<div align="center">
 
 <img src="./assets/hero.svg" width="100%" alt="Даниил Фоменко — Senior Frontend Engineer и Frontend Tech Lead" />
 
